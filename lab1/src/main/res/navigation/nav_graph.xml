@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainPage">
+
+    <fragment
+        android:id="@+id/MainPage"
+        android:name="com.example.lab1.MainFragment"
+        android:label="First Fragment" />
+
+    <fragment
+        android:id="@+id/intents_and_deeplinks"
+        android:name="com.example.lab1.Intents_and_deeplinks"
+        android:label="Intents and Deeplinks" />
+
+    <fragment
+        android:id="@+id/forgroundservice"
+        android:name="com.example.lab1.Foreground_service"
+        android:label="Foreground service" />
+
+    <fragment
+        android:id="@+id/bordcast_receiver"
+        android:name="com.example.lab1.BroadcastReceiver"
+        android:label="Broadcast receiver"/>
+
+    <fragment
+        android:id="@+id/content_provider"
+        android:name="com.example.lab1.ContentProvider"
+        android:label="Content Provider"/>
+
+</navigation>
